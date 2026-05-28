@@ -99,7 +99,7 @@ pacman::p_load(
 
 # Fijar la ruta del archivo actual como referencia para here()
 
-here::i_am("Codigos/codigo_metodologiabj_.R") 
+here::i_am("Codigo/codigo_metodologiabj_.R") 
 
 # Obtener la ruta del directorio con los datos
 directorio <- fs::path(here::here("HQMCB12YR.csv", "Datos"))
