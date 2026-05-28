@@ -202,7 +202,7 @@ d.btts= diff(btts) # Serie diferenciada
 # valor en logaritmos.
 
 x11()
-par(mfrow=c(2,2))
+par(mfrow=c(1,2))
 
 plot.ts(btts, xlab="",ylab="", 
         main="Serie Normal",lty=1, lwd=2, col="lightblue")
