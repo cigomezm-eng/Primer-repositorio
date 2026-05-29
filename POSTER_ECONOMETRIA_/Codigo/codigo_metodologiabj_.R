@@ -170,8 +170,8 @@ ts = ts(t[1:508], start = c(1984), frequency = 12)
 
 #Graficamos la serie
 
-plot(btxts, main = "Tasa al contado de bonos corporativos
-# de mercado de alta calidad (HQM) a 12 años ",
+plot(btxts, main = "Tasa SPOT bonos corporativos
+ de mercado de alta calidad (HQM) a 12 años ",
      sub = "1984-2026",
      ylab  = "%")
 
