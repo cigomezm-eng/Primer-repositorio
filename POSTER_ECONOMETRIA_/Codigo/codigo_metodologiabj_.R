@@ -313,6 +313,8 @@ pacf(res_arima_0.1.1, lag.max = lags, plot=T, lwd=2, xlab='', main='PACF', ylim=
 
 Box.test(res_arima_0.1.1, lag=lags.test, type = c("Ljung-Box")) 
 Box.test(res_arima_0.1.1 , lag=10, type='Ljung-Box') 
+Box.test(res_arima_0.1.1 , lag=20, type='Ljung-Box') 
+Box.test(res_arima_0.1.1 , lag=30, type='Ljung-Box') 
 
 #Concluimos que el modelo no tiene autocorrelacion
 
@@ -424,6 +426,10 @@ par(mfrow=c(1,1))
 #ARIMA 0,1,1
 Box.test(res_arima_0.1.1_corregido, lag=lags.test, type = c("Ljung-Box")) 
 Box.test(res_arima_0.1.1_corregido , lag=10, type='Ljung-Box') 
+Box.test(res_arima_0.1.1_corregido , lag=20, type='Ljung-Box') 
+Box.test(res_arima_0.1.1_corregido , lag=30, type='Ljung-Box') 
+
+
 
 # SE CUMPLE NO AUTOCORRELACIÓN !!!!!!!!!!!!
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
