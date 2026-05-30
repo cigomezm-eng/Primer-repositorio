@@ -517,7 +517,7 @@ print(pronostico_final)
 
 # Graficamos el resultado
 plot(pronostico_final, 
-     main = "Pronóstico del Modelo ARIMA(0,1,1) with Dummys", 
+     main = "Pronóstico sobre Serie Original", 
      xlab = "Tiempo", 
      ylab = "%", 
      col = "black", 
